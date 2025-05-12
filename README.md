@@ -2,7 +2,11 @@
 
 ## Summary
 
-The Task Management Dashboard is a React-based application that allows users to organize and track tasks using a Kanban-style board. The project demonstrates a solid understanding of React fundamentals, including state management, component composition, and side effects. The use of TypeScript adds type safety, improving code reliability and maintainability. Tailwind CSS is effectively employed to create a clean, professional monochrome design that's both visually appealing and functional.
+The Task Management Dashboard is a React-based application that helps users organize and track their tasks using a Kanban-style board. It demonstrates a strong grasp of React fundamentals, including state management, component composition, and handling side effects. The project is built with TypeScript, ensuring type safety and enhancing code reliability and maintainability.
+
+A key feature is the drag-and-drop interface, implemented using DND (Drag and Drop) technology, which allows users to seamlessly move tasks across different columns to update their status. This interaction provides an intuitive user experience that mirrors real-world task management workflows.
+
+Styling is handled with Tailwind CSS, which creates a clean, professional monochrome design that is both visually appealing and functionally effective.
 
 ## Steps to run the project locally
  step 1: path to your directory:
