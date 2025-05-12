@@ -1,54 +1,30 @@
-<<<<<<< HEAD
-# Task-Management-Dashboard
-=======
-# React + TypeScript + Vite
+# Task Management Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Summary
 
-Currently, two official plugins are available:
+The Task Management Dashboard is a React-based application that allows users to organize and track tasks using a Kanban-style board. The project demonstrates a solid understanding of React fundamentals, including state management, component composition, and side effects. The use of TypeScript adds type safety, improving code reliability and maintainability. Tailwind CSS is effectively employed to create a clean, professional monochrome design that's both visually appealing and functional.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## Steps to run the project locally
+ step 1: path to your directory:
+```bash
+cd /path/to/your/directory
 ```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+step 2: clone the repository:
+```bash
+https://github.com/Nandan185/Task-Management-Dashboard.git
 ```
->>>>>>> 04362a4 (completed project)
+step 3: Enter the Project Directory
+```bash
+cd repository-name
+```
+step 4: Install Dependencies 
+```bash
+npm install npm run dev
+```
+step 5: Run the project
+```bash
+npm run dev
+```
+## Project preview
+<img width="1423" alt="Image" src="https://github.com/user-attachments/assets/38812a5c-2321-45aa-a5ca-4521c5f6f63a" />
+<img width="1423" alt="Image" src="https://github.com/user-attachments/assets/5b27e9b7-5137-4669-875a-116445167ff9" />
